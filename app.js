@@ -27,15 +27,6 @@ function Passfunc() {
         "*Ä*DA&"
     ]
 
-    const fourthletters = [
-        "hNh&/",
-        "ÖK87(/",
-        "(())",
-        "**#",
-        "DAIUBW",
-        "__(D__"
-    ]
-
     let randomfirstletters = firstletters[Math.floor(Math.random() * firstletters.length)]
     let randomsecondletters = secondletters[Math.floor(Math.random() * secondletters.length)]
     let randomthirdletters = thirdletters[Math.floor(Math.random() * thirdletters.length)]
