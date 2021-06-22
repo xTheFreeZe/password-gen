@@ -129,3 +129,16 @@ html {
     color: beige;
     text-align: center;
 }
+
+.advise {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Lato;
+}
+
+.advise p {
+    color: #5895e4;
+    font-size: 20px;
+}
