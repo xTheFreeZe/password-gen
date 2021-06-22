@@ -27,6 +27,15 @@ function Passfunc() {
         "*Ä*DA&"
     ]
 
+    const fourthletters = [
+        "hNh&/",
+        "ÖK87(/",
+        "(())",
+        "**#",
+        "DAIUBW",
+        "__(D__"
+    ]
+
     let randomfirstletters = firstletters[Math.floor(Math.random() * firstletters.length)]
     let randomsecondletters = secondletters[Math.floor(Math.random() * secondletters.length)]
     let randomthirdletters = thirdletters[Math.floor(Math.random() * thirdletters.length)]
@@ -76,12 +85,14 @@ function Passhardfunc() {
     ]
 
     let randomfirstletters = firstletters[Math.floor(Math.random() * firstletters.length)]
+    let randomfirstletters2 = firstletters[Math.floor(Math.random() * firstletters.length)]
     let randomsecondletters = secondletters[Math.floor(Math.random() * secondletters.length)]
     let randomthirdletters = thirdletters[Math.floor(Math.random() * thirdletters.length)]
+    let randomthirdletters2 = thirdletters[Math.floor(Math.random() * thirdletters.length)]
     let randomfourthletters = fourthletters[Math.floor(Math.random() * fourthletters.length)]
 
 
 
 
-    document.getElementById("password").innerHTML = randomfirstletters + randomfourthletters + randomsecondletters + randomthirdletters + randomfirstletters + randomfourthletters + randomthirdletters;
+    document.getElementById("password").innerHTML = randomfirstletters + randomfourthletters + randomsecondletters + randomthirdletters + randomfirstletters2 + randomfourthletters + randomthirdletters2;
 }
