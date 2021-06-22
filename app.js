@@ -2,7 +2,7 @@ function Passfunc() {
 
 
     const firstletters = [
-        "hsb/2",
+        "h_Psb/2",
         "nD92n**",
         "?/$2w",
         "dn__B257$67",
@@ -12,28 +12,19 @@ function Passfunc() {
 
     const secondletters = [
         "hsn/",
-        "K&BD(/(/",
+        "K&_BD(/(/",
         "+__#/d",
         "DB&/NS/",
         "NSZ/&/"
     ]
 
     const thirdletters = [
-        "hN_h&/",
+        "h*N_h&/",
         "ÖK8_7(/",
         "(())",
         "**#",
-        "DAIUBW",
+        "D(AI_*UBW",
         "*Ä*DA&"
-    ]
-
-    const fourthletters = [
-        "hNh&/",
-        "ÖK87(/",
-        "(())",
-        "**#",
-        "DAIUBW",
-        "__(D__"
     ]
 
     let randomfirstletters = firstletters[Math.floor(Math.random() * firstletters.length)]
@@ -50,7 +41,7 @@ function Passhardfunc() {
 
 
     const firstletters = [
-        "hsb/2",
+        "h_Psb/2",
         "nD92n**",
         "?/$2w",
         "dn__B257$67",
@@ -60,25 +51,25 @@ function Passhardfunc() {
 
     const secondletters = [
         "hsn/",
-        "K&BD(/(/",
+        "K&_BD(/(/",
         "+__#/d",
         "DB&/NS/",
         "NSZ/&/"
     ]
 
     const thirdletters = [
-        "hN_h&/",
+        "h*N_h&/",
         "ÖK8_7(/",
         "(())",
         "**#",
-        "DAIUBW",
+        "D(AI_*UBW",
         "*Ä*DA&"
     ]
 
     const fourthletters = [
-        "hNh&/",
+        "hN_h&/",
         "ÖK87(/",
-        "(())",
+        "((_)*)",
         "**#",
         "DAIUBW",
         "__(D__"
